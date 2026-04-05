@@ -1,4 +1,6 @@
 resource "aws_vpc" "myvpc11" {
-  cidr = "10.211.0.0/16"
-
+  cidr_block = "10.11.0.0/16"
+  tags = {
+    Name = "MaheshVPC-GitHub"
+  }
 }
